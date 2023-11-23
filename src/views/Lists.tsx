@@ -1,4 +1,4 @@
-const Lists = () => {
+function Lists() {
     return (
         <>
             <h1>This is Lists</h1>

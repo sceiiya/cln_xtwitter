@@ -1,4 +1,4 @@
-const Communities = () => {
+function Communities() {
     return (
         <>
             <h1>This is Communities</h1>

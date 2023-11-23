@@ -1,4 +1,4 @@
-const Explore = () => {
+function Explore() {
     return (
         <>
             <h1>This is Explore</h1>
