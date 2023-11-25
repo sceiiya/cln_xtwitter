@@ -28,6 +28,7 @@ function App() {
             <Route path='/profile' element={<Profile/>} />
             <Route path='/more' element={<More/>} />
             <Route path='*' element={<Navigate to='/'/>} />
+            {/* in this one, when there is no content, it should be redirected to page not found then after 2 secs will redirect to homepage or sign up page */}
           </Routes>
         </Router>
       </HelmetProvider>
