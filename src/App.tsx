@@ -10,6 +10,7 @@ import Profile from './views/Profile'
 import Communities from './views/Communities'
 import Lists from './views/Lists'
 import Messages from './views/Messages'
+import Header from './components/Header';
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
           </Routes>
         </Router>
       </HelmetProvider>
+      <Header/>
     </>
   )
 }
