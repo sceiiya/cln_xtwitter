@@ -1,7 +1,15 @@
+import HeadButton from './HeadButton';
+import { FaTwitter } from 'react-icons/fa';
+
 function Header() {
     return (
         <>
-            <h1>This is Header</h1>
+            <div>
+                <HeadButton
+                    icon={FaTwitter}
+                    text='Home'
+                />
+            </div>
         </>
     )
 }
