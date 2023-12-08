@@ -14,14 +14,14 @@ function Header() {
     return (
         <>
             <div>
-                <HeadButton Icon={FaHouseChimney} text='Home' />
-                <HeadButton Icon={IoSearch} text='Explore' />
-                <HeadButton Icon={GoBell} text='Notifications' />
-                <HeadButton Icon={FiMail} text='Messages' />
-                <HeadButton Icon={FaRegRectangleList} text='Lists' />
-                <HeadButton Icon={IoPeopleOutline} text='Communities' />
-                <HeadButton Icon={IoPersonOutline} text='Profile' />
-                <HeadButton Icon={CgMoreO} text='More' />
+                <HeadButton Icon={FaHouseChimney} text='Home' navigateTo='/home' />
+                <HeadButton Icon={IoSearch} text='Explore' navigateTo='/explore' />
+                <HeadButton Icon={GoBell} text='Notifications' navigateTo='/notifications' />
+                <HeadButton Icon={FiMail} text='Messages' navigateTo='/messages' />
+                <HeadButton Icon={FaRegRectangleList} text='Lists' navigateTo='/lists' />
+                <HeadButton Icon={IoPeopleOutline} text='Communities' navigateTo='/communities' />
+                <HeadButton Icon={IoPersonOutline} text='Profile' navigateTo='/profile' />
+                <HeadButton Icon={CgMoreO} text='More' navigateTo='/more' />
             </div>
         </>
     )

@@ -19,7 +19,7 @@ function App() {
       <HelmetProvider>
         <Router>
           <Routes>
-            <Route path='/' />
+            {/* <Route path='/' /> */}
             <Route path='/home' element={<Home/>} />
             <Route path='/explore' element={<Explore/>} />
             <Route path='/notifications' element={<Notifications/>} />
@@ -28,11 +28,12 @@ function App() {
             <Route path='/communities' element={<Communities/>} />
             <Route path='/profile' element={<Profile/>} />
             <Route path='/more' element={<More/>} />
-            <Route path='*' element={<Navigate to='/'/>} />
+            <Route path='*' element={<Navigate to='/home'/>} />
             {/* in this one, when there is no content, it should be redirected to page not found then after 2 secs will redirect to homepage or sign up page */}
           </Routes>
         </Router>
       </HelmetProvider>
+      
       <Header/>
     </>
   )
